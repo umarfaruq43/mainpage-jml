@@ -1,0 +1,338 @@
+//TABLET - VIEW
+
+@media screen and (min-width : 768px){
+
+    #header{
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        padding: 1%;
+        width: 100%;
+        background-color: #000;
+        opacity: 1;
+        position: fixed;
+    
+        h1{
+           font-size: 20px;
+        }
+
+     nav{
+        .toggle{
+          display: block;
+          cursor: pointer;
+        }
+    
+    
+    ul{
+       width: 100%;
+       display: none;
+       background: #000;
+       padding: 0;
+       
+
+
+        li{
+           display: block;
+           text-align: left;
+           font-size: 18px;
+           font-weight: bold;
+           margin-bottom: 5%;
+           
+          
+        }
+    }
+    .active{
+        display: block;
+    }
+}
+}
+
+
+#show{
+    height: 70vh;
+
+    h2{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .btns{
+
+        .main-btn-left{
+            padding: 0.8rem 1.5rem;
+            font-size: 18px;
+        }
+        
+
+        .main-btn-right{
+            padding: 0.8rem 1.5rem;
+            font-size: 18px;
+           
+        }
+    }
+}
+
+#about{
+    padding: 1.5rem;
+    
+
+    h2{
+        font-size: 23px;
+    }
+
+    .about-boxes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 0.8rem;
+
+        .box{
+        
+            h3{
+                font-size: 25px;
+            }
+
+            p{
+                font-size: 18px;
+            }
+
+        }
+    }
+}
+
+#gallery{
+    padding: 10px;
+
+    h2{
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+
+    .port-images{
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 20px;
+
+    .img-box{
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+            transition: all .5s linear;
+
+            &:hover{
+                transform: scale(1.5);
+                
+            }
+        }
+    }
+    }
+
+}
+
+#choice{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .box{
+        h3{
+            font-size: 25px;
+        }
+
+        .line{
+            width: 10%;
+            height: 5px;
+            background-color: goldenrod;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .img-box{
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+#testimonial{
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+    .test-box{
+
+        .client-detail{
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+
+}
+
+
+#team{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h2{
+        font-size: 25px;
+    }
+
+.teams{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+
+    .team-mem{
+        background: rgb(223, 220, 220);
+
+        h3{
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
+}
+}
+
+#blog{
+    text-align: center;
+    padding: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h2{
+        font-size: 25px;
+    }
+
+    .blog-card{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        .card{
+
+            .details{
+               align-items: center;
+            }
+            .blog-content{
+                padding: 0.1rem;
+                h3{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 16px;
+                }
+               a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: goldenrod;
+               }
+           }
+        }
+    }
+}
+
+#contact{
+    padding: 0.9rem;
+
+    h2{
+        font-size: 28px;
+    }
+
+    .cont-box{
+        grid-template-columns: repeat(3, 1fr);
+
+        .cont{
+            
+            h3{
+                font-size: 25px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+        }
+
+    }
+
+    form{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+            
+        input[type="text"]{
+            width: 80%;
+            padding: 0.5rem;
+            margin: 0.4rem;
+            font-size: 16px;
+        }
+        input[type="email"]{
+            width: 80%;
+            padding: 0.5rem;
+            margin: 0.4rem;
+            font-size: 16px;
+        }
+        input[type="submit"]{
+            width: 40%;
+            padding: 0.8rem;
+            margin: 0.4rem;
+            font-size: 15px;
+        }
+        
+        textarea{
+            width: 80%;
+            padding: 1.8rem 0.5rem;
+            margin: 0.4rem;
+            font-size: 16px;
+        }
+        
+    }
+}
+
+footer{
+    padding: 0.5rem;
+    h3{
+        font-size: 22px;
+    }
+
+    .icons{
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            
+
+         i{
+            font-size: 22px;
+            padding: 2%;
+            margin: 0;
+            cursor: pointer;
+          }
+        }
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+}

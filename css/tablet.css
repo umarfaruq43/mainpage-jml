@@ -1,0 +1,257 @@
+@media screen and (min-width: 768px) {
+  #header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: #fff;
+    padding: 1%;
+    width: 100%;
+    background-color: #000;
+    opacity: 1;
+    position: fixed;
+  }
+  #header h1 {
+    font-size: 20px;
+  }
+  #header nav .toggle {
+    display: block;
+    cursor: pointer;
+  }
+  #header nav ul {
+    width: 100%;
+    display: none;
+    background: #000;
+    padding: 0;
+  }
+  #header nav ul li {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  #header nav .active {
+    display: block;
+  }
+  #show {
+    height: 70vh;
+  }
+  #show h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  #show p {
+    font-size: 16px;
+  }
+  #show .btns .main-btn-left {
+    padding: 0.8rem 1.5rem;
+    font-size: 18px;
+  }
+  #show .btns .main-btn-right {
+    padding: 0.8rem 1.5rem;
+    font-size: 18px;
+  }
+  #about {
+    padding: 1.5rem;
+  }
+  #about h2 {
+    font-size: 23px;
+  }
+  #about .about-boxes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0.8rem;
+  }
+  #about .about-boxes .box h3 {
+    font-size: 25px;
+  }
+  #about .about-boxes .box p {
+    font-size: 18px;
+  }
+  #gallery {
+    padding: 10px;
+  }
+  #gallery h2 {
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+  #gallery .port-images {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  #gallery .port-images .img-box {
+    overflow: hidden;
+  }
+  #gallery .port-images .img-box img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+  }
+  #gallery .port-images .img-box img:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  #choice {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #choice .box h3 {
+    font-size: 25px;
+  }
+  #choice .box .line {
+    width: 10%;
+    height: 5px;
+    background-color: goldenrod;
+  }
+  #choice .box p {
+    font-size: 16px;
+  }
+  #choice .img-box img {
+    width: 100%;
+    height: 100%;
+  }
+  #testimonial {
+    padding: 2rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  #testimonial .test-box .client-detail h3 {
+    font-size: 25px;
+  }
+  #testimonial .test-box .client-detail p {
+    font-size: 16px;
+  }
+  #testimonial .test-box p {
+    font-size: 18px;
+  }
+  #team {
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #team h2 {
+    font-size: 25px;
+  }
+  #team .teams {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  #team .teams .team-mem {
+    background: #dfdcdc;
+  }
+  #team .teams .team-mem h3 {
+    font-size: 25px;
+  }
+  #team .teams .team-mem p {
+    font-size: 16px;
+  }
+  #blog {
+    text-align: center;
+    padding: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #blog h2 {
+    font-size: 25px;
+  }
+  #blog .blog-card {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  #blog .blog-card .card .details {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #blog .blog-card .card .blog-content {
+    padding: 0.1rem;
+  }
+  #blog .blog-card .card .blog-content h3 {
+    font-size: 25px;
+  }
+  #blog .blog-card .card .blog-content p {
+    font-size: 16px;
+  }
+  #blog .blog-card .card .blog-content a {
+    text-decoration: none;
+    font-size: 16px;
+    color: goldenrod;
+  }
+  #contact {
+    padding: 0.9rem;
+  }
+  #contact h2 {
+    font-size: 28px;
+  }
+  #contact .cont-box {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  #contact .cont-box .cont h3 {
+    font-size: 25px;
+  }
+  #contact .cont-box .cont p {
+    font-size: 16px;
+  }
+  #contact form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #contact form input[type="text"] {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+  #contact form input[type="email"] {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+  #contact form input[type="submit"] {
+    width: 40%;
+    padding: 0.8rem;
+    margin: 0.4rem;
+    font-size: 15px;
+  }
+  #contact form textarea {
+    width: 80%;
+    padding: 1.8rem 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+  footer {
+    padding: 0.5rem;
+  }
+  footer h3 {
+    font-size: 22px;
+  }
+  footer .icons a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer .icons a i {
+    font-size: 22px;
+    padding: 2%;
+    margin: 0;
+    cursor: pointer;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */
